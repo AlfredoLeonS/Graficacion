@@ -101,7 +101,7 @@ function dibujarEstrella(posX, posY) {
 }
 
 function mousePressed() {
-  if (mouseButton === RIGHT) {
+  if (mouseButton === RIGHT) { 
     if (fondo) { 
       estrellas.push({
         x: mouseX,
